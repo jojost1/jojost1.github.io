@@ -1,5 +1,8 @@
 table.table-bordered.table-hover{ width:100%; }
-table.table-bordered.table-hover tr td{ width:25%; }
+table.table-bordered.table-hover tr td:nth-child(1){ width:10%; }
+table.table-bordered.table-hover tr td:nth-child(2){ width:25%; }
+table.table-bordered.table-hover tr td:nth-child(3){ width:25%; }
+table.table-bordered.table-hover tr td:nth-child(4){ width:40%; }
 
 #falcon {
 	color: #F7E53B;
