@@ -1,7 +1,5 @@
-.table-responsive
-{
-    overflow-x: auto;
-}
+table.table-bordered.table-hover{ width:100%; }
+table.table-bordered.table-hover tr td{ width:25% }
 
 #falcon {
 	color: #F7E53B;
