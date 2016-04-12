@@ -19,30 +19,37 @@
 	<nav class="navbar navbar-inverse">
   		<div class="container-fluid">
     		<div class="navbar-header">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+       				<span class="icon-bar"></span>                        
+      			</button>
       			<a class="navbar-brand" id="falcon" href="/home.html">Falcon</a>
     		</div>
-      		<ul class="nav navbar-nav">
-        		<li class="active"><a href="/home.html">Home</a></li>
-        		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Launches<span class="caret"></span></a>
-        			<ul class="dropdown-menu">
-          				<li><a href="#">SES-9</a></li>
-          				<li><a href="#">Jason 3</a></li>
-          				<li><a href="/launches.html">All Launches</a></li> 
-        			</ul>
-        		</li>
-        		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Landings<span class="caret"></span></a>
-        			<ul class="dropdown-menu">
-          				<li><a href="#">SES-9 (ASDS)</a></li>
-          				<li><a href="#">Orbcomm OG2 (RTLS)</a></li>
-          				<li><a href="/landings.html">All Landing Attempts</a></li> 
-        			</ul>
-        		</li> 
-        		<li><a href="/patches.html">Patches</a></li> 
-      		</ul>
-      		<ul class="nav navbar-nav navbar-right">
-        		<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        		<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      		</ul>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav">
+        			<li class="active"><a href="/home.html">Home</a></li>
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Launches<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+          					<li><a href="#">SES-9</a></li>
+          					<li><a href="#">Jason 3</a></li>
+          					<li><a href="/launches.html">All Launches</a></li> 
+        				</ul>
+        			</li>
+        			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Landings<span class="caret"></span></a>
+        				<ul class="dropdown-menu">
+          					<li><a href="#">SES-9 (ASDS)</a></li>
+          					<li><a href="#">Orbcomm OG2 (RTLS)</a></li>
+          					<li><a href="/landings.html">All Landing Attempts</a></li> 
+        				</ul>
+        			</li> 
+        			<li><a href="/patches.html">Patches</a></li> 
+      			</ul>
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      			</ul>
+   			</div>
    		</div>
 	</nav>
 	
