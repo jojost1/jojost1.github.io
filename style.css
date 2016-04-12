@@ -2,3 +2,8 @@
 {
     overflow-x: auto;
 }
+
+.yellow-text
+{
+	text-color: yellow;
+}
