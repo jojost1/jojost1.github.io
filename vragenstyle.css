@@ -126,7 +126,11 @@ input:valid::-webkit-input-placeholder {
 
 /* NIEUWE CODE VAN VRAGENSCHERM JOOST */
 
-body, html {height:100%;}
+body { /* Pagina kan zo niet scrollen */
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+}
 
 #position1 {
   /* Safari */
