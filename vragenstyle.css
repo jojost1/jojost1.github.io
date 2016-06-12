@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    background-image: url(Picture/menu-restaurant-vintage-table.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,7 +130,6 @@ body { /* Pagina kan zo niet scrollen */
     position: fixed; 
     overflow-y: scroll;
     width: 100%;
-    height: 100%;
 }
 
 #position1 {
@@ -233,57 +233,38 @@ font-family: 'Roboto', sans-serif;
     right: 0;
 }
 
-/* http://stackoverflow.com/questions/15306032/css3-transform-rotate-text-fixed-position-left-and-right-vertically-centered */
 #nieuwevraagpos1 {
 	position: fixed;
-  	top: 0;
-  	bottom: 0;
-  	background: red;
-   	float: right;
-    -moz-transform: rotate(270deg);  /* FF3.5+ */
-    -o-transform: rotate(270deg);  /* Opera 10.5 */
-    -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
-    -moz-transform-origin: 100% 100%;
-    -o-transform-origin: 100% 100%;
-    -webkit-transform-origin: 100% 100%;
+	left:0;
+	top: 50%;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
 	color: #FFFFFF;
+	/* Safari */
+  	-webkit-transform: rotate(90deg);
+  	/* Firefox */
+  	-moz-transform: rotate(90deg);
+  	/* IE */
+  	-ms-transform: rotate(90deg);
+  	/* Opera */
+  	-o-transform: rotate(90deg);
 }
 
 #nieuwevraagpos2 {
 	position: fixed;
-    top: 0;
-    bottom: 0;
-    height: 1.5em;
-    margin: auto;
-	background: red;
-    left: 0;
-  -webkit-transform-origin: 0 50%;
-     -moz-transform-origin: 0 50%;
-      -ms-transform-origin: 0 50%;
-       -o-transform-origin: 0 50%;
-          transform-origin: 0 50%;
-  -webkit-transform: rotate(-90deg) translate(-50%, 50%);
-     -moz-transform: rotate(-90deg) translate(-50%, 50%);
-      -ms-transform: rotate(-90deg) translate(-50%, 50%);
-       -o-transform: rotate(-90deg) translate(-50%, 50%);
-          transform: rotate(-90deg) translate(-50%, 50%);
+	top: 50%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
 	color: #FFFFFF;
-}
-
-#nieuwevraagpos3 {
-	position: absolute;
-	bottom: 30;
-	left: 0px;
-	right: 0px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-	color: #FFFFFF;
+	/* Safari */
+  	-webkit-transform: rotate(-90deg);
+  	/* Firefox */
+  	-moz-transform: rotate(-90deg);
+  	/* IE */
+  	-ms-transform: rotate(-90deg);
+  	/* Opera */
+  	-o-transform: rotate(-90deg);
+  	right:0;
 }
 
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
