@@ -233,13 +233,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 #nieuwevraagpos1 {
-	position: fixed;
-	margin-top: auto;
-  	margin-bottom: auto;
-	text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-	color: #FFFFFF;
 	/* Safari */
   	-webkit-transform: rotate(90deg);
   	/* Firefox */
@@ -248,7 +241,14 @@ font-family: 'Roboto', sans-serif;
   	-ms-transform: rotate(90deg);
   	/* Opera */
   	-o-transform: rotate(90deg);
-  	left:0;
+	position: absolute;
+	top: 0px;
+	left: 10;
+	bottom: 0px;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	color: #FFFFFF;
 }
 
 #nieuwevraagpos2 {
@@ -272,7 +272,7 @@ font-family: 'Roboto', sans-serif;
 
 #nieuwevraagpos3 {
 	position: absolute;
-	top: 0px;
+	bottom: 10;
 	left: 0px;
 	right: 0px;
     text-align: center;
