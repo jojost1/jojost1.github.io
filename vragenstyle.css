@@ -204,7 +204,7 @@ font-family: 'Roboto', sans-serif;
   	-o-transform: rotate(180deg);
 }
 
-#upper-right {
+#upper-right img {
 	height: 80px;
     position: fixed;
     top: 10;
@@ -219,14 +219,14 @@ font-family: 'Roboto', sans-serif;
   	-o-transform: rotate(180deg);
 }
 
-#bottom-left {
+#bottom-left img {
     height: 80px;
     position: fixed;
     bottom: 10;
     left: 0;
 }
 
-#bottom-right {
+#bottom-right img {
 	height: 80px;
     position: fixed;
     bottom: 10;
