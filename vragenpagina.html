@@ -3,7 +3,7 @@
 		<link rel="stylesheet" type="text/css" href="vragenstyle.css">
 		<title>Vragenpagina</title>
 	</head>
-	<body>
+	<body id=b1>
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<p id=position1></p>
 		<p id=position2></p>
@@ -37,7 +37,7 @@
 			}
 
 			function achtergrondBlauwFade() {
-				NLBfadeBg('body','#FFFFFF','#8CD0CD','5000');
+				NLBfadeBg('b1','#FFFFFF','#8CD0CD','5000');
   				//document.body.style.background = "#8CD0CD";
 			}
 			
@@ -45,6 +45,7 @@
   				document.body.style.background = "#FFFFFF";
 			}
 			
+			//http://www.netlobo.com/javascript_background_fade.html
 			var nlbFade_hextable = [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' ]; // used for RGB to Hex and Hex to RGB conversions
 var nlbFade_elemTable = new Array( ); // global array to keep track of faded elements
 var nlbFade_t = new Array( ); // global array to keep track of fading timers
