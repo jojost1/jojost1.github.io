@@ -295,15 +295,15 @@ body {
     height: 100%;
     position: fixed;
     top: 0;
-    width: 18%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	color: #FFFFFF;
 }
 #sideLeft {
     left: 0;
-    background-color:#ccc
 }
 #sideRight {
     right: 0;
-    background-color:#ccc
 }
 
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
