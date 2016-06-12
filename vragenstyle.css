@@ -238,37 +238,6 @@ body {
     padding: 0;
 }
 
-#nieuwevraagpos1 {
-	background: red;
-	position: fixed;
-	left:0;
-	top: 50%;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-	color: #FFFFFF;
-	float: left;
-    -webkit-transform: rotate(90deg) translate(100%,100%);
-            transform: rotate(90deg) translate(100%,100%);
-    -webkit-transform-origin: 100% 100%;
-}
-
-#nieuwevraagpos2 {
-	position: fixed;
-	top: 50%;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-	color: #FFFFFF;
-	/* Safari */
-  	-webkit-transform: rotate(-90deg);
-  	/* Firefox */
-  	-moz-transform: rotate(-90deg);
-  	/* IE */
-  	-ms-transform: rotate(-90deg);
-  	/* Opera */
-  	-o-transform: rotate(-90deg);
-  	right:0;
-}
-
 #sideLeft span, #sideRight span {
     top: 50%;
     left:50%;
@@ -300,10 +269,10 @@ body {
 	color: #FFFFFF;
 }
 #sideLeft {
-    left: 0;
+    left: 40;
 }
 #sideRight {
-    right: 0;
+    right: 40;
 }
 
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
