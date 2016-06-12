@@ -1,0 +1,29 @@
+<html>
+  <head>
+		<link rel="stylesheet" type="text/css" href="vragenstyle.css">
+		<title>Vragenpagina</title>
+  </head>
+  <body>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <p id=position1></p>
+    <p id=position2></p>
+    <p id=position3></p>
+    <p id=position4></p>
+		<script type="text/javascript">
+    // JAVASCRIPT VRAGENSCHERM JOOST
+
+setTimeout(beginFunctie, 50); //Voert 'beginFunctie()' aan 50ms na laden pagina
+
+function beginFunctie() {
+  var vraag1 = "Moet jij wel eens poepen op zondag?"; //DATABASE
+  document.getElementById("position1").innerHTML = vraag1;
+  setTimeout(veranderAchtergrond, 10000);
+}
+
+function veranderAchtergrond() {
+  document.body.style.background = "#8CD0CD";
+}
+	
+		</script>
+	</body>
+</html>
