@@ -233,4 +233,18 @@ font-family: 'Roboto', sans-serif;
     right: 0;
 }
 
+#nieuwevraagpos1 {
+	/* Safari */
+  	-webkit-transform: rotate(90deg);
+  	/* Firefox */
+  	-moz-transform: rotate(90deg);
+  	/* IE */
+  	-ms-transform: rotate(90deg);
+  	/* Opera */
+  	-o-transform: rotate(90deg);
+	vertical-align: middle;
+    text-align: center;
+	color: #FFFFFF;
+}
+
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
