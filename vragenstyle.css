@@ -242,6 +242,7 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 	color: #FFFFFF;
+	transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
 #nieuwevraagpos2 {
