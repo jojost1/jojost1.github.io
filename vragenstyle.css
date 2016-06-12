@@ -239,6 +239,7 @@ body {
 }
 
 #nieuwevraagpos1 {
+	background: red;
 	position: fixed;
 	left:0;
 	top: 50%;
