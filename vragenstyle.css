@@ -269,9 +269,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 #nieuwevraagpos3 {
-	position: fixed;
-	top:0;
-	left:50%;
+	display: flex;
+  	justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
