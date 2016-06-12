@@ -233,19 +233,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 #nieuwevraagpos1 {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	text-align: center;
     font-family: 'Roboto', sans-serif;
 	color: #FFFFFF;
-	/* Safari */
-  	-webkit-transform: rotate(90deg);
-  	/* Firefox */
-  	-moz-transform: rotate(90deg);
-  	/* IE */
-  	-ms-transform: rotate(90deg);
-  	/* Opera */
-  	-o-transform: rotate(90deg);
   	left:0;
 }
 
