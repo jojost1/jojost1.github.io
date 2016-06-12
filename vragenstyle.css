@@ -268,4 +268,14 @@ font-family: 'Roboto', sans-serif;
   	right:0;
 }
 
+#nieuwevraagpos3 {
+	position: fixed;
+	top:0;
+	left:50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	color: #FFFFFF;
+}
+
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
