@@ -37,7 +37,10 @@
 			}
 
 			function achtergrondBlauwFade() {
-  				document.body.style.background = "#8CD0CD";
+				$(document).ready(function() {
+    				$('#backgroundfade').fadeIn(1000);
+				});
+  				//document.body.style.background = "#8CD0CD";
 			}
 			
 			function achtergrondWit() {
