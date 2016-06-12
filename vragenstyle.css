@@ -243,9 +243,10 @@ font-family: 'Roboto', sans-serif;
   	/* Opera */
   	-o-transform: rotate(90deg);
 	position: fixed;
-	top:50%;
-	left:0%;
-	margin:0;
+	top: 50%;
+	left: 0%;
+	margin: 0 auto;
+	float: left;
 	text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
