@@ -293,5 +293,20 @@ body {
     -ms-transform: translate(-50%, -50%) rotate(180deg);
     -o-transform: translate(-50%, -50%) rotate(180deg);
     transform: translate(-50%, -50%) rotate(180deg);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	color: #FFFFFF;
+}
+
+#sideBottom {
+	top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    white-space:nowrap;
+    bottom: 40;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+	color: #FFFFFF;
 }
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
