@@ -233,6 +233,11 @@ font-family: 'Roboto', sans-serif;
     right: 0;
 }
 
+body { /* Pagina kan zo niet scrollen */
+    margin: 0;
+    padding: 0;
+}
+
 #nieuwevraagpos1 {
 	position: fixed;
 	left:0;
