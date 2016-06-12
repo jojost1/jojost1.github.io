@@ -240,12 +240,13 @@ body {
 
 #sideLeft span, #sideRight span {
     top: 50%;
-    left:50%;
+    left: 50%;
     position: absolute;
     text-align: center;
     white-space:nowrap;
     transform-origin:50% 50%;
 }
+
 #sideRight span {
     -webkit-transform: translate(-50%, -50%) rotate(-90deg);
     -moz-transform: translate(-50%, -50%) rotate(-90deg);
@@ -253,6 +254,7 @@ body {
     -o-transform: translate(-50%, -50%) rotate(-90deg);
     transform: translate(-50%, -50%) rotate(-90deg);
 }
+
 #sideLeft span {
     -webkit-transform: translate(-50%, -50%) rotate(90deg);
     -moz-transform: translate(-50%, -50%) rotate(90deg);
@@ -260,6 +262,7 @@ body {
     -o-transform: translate(-50%, -50%) rotate(90deg);
     transform: translate(-50%, -50%) rotate(90deg);
 }
+
 #sideLeft, #sideRight {
     height: 100%;
     position: fixed;
@@ -268,11 +271,27 @@ body {
     font-size: 20px;
 	color: #FFFFFF;
 }
+
 #sideLeft {
     left: 40;
 }
+
 #sideRight {
     right: 40;
 }
 
+#sideTop {
+	top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    white-space:nowrap;
+    top: 40;
+    transform-origin:50% 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(180deg);
+    -moz-transform: translate(-50%, -50%) rotate(180deg);
+    -ms-transform: translate(-50%, -50%) rotate(180deg);
+    -o-transform: translate(-50%, -50%) rotate(180deg);
+    transform: translate(-50%, -50%) rotate(180deg);
+}
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
