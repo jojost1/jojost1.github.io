@@ -234,6 +234,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 #nieuwevraagpos1 {
+	vertical-align: middle;
+    text-align: center;
+	color: #FFFFFF;
 	/* Safari */
   	-webkit-transform: rotate(90deg);
   	/* Firefox */
@@ -242,9 +245,6 @@ font-family: 'Roboto', sans-serif;
   	-ms-transform: rotate(90deg);
   	/* Opera */
   	-o-transform: rotate(90deg);
-	vertical-align: middle;
-    text-align: center;
-	color: #FFFFFF;
 }
 
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
