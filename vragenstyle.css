@@ -186,14 +186,14 @@ font-family: 'Roboto', sans-serif;
 #bottom-left {
     height: 50px;
     position: fixed;
-    bottom: 0;
+    bottom: 5;
     left: 0;
 }
 
 #bottom-right {
 	height: 50px;
     position: fixed;
-    bottom: 0;
+    bottom: 5;
     right: 0;
 }
 
