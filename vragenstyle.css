@@ -233,7 +233,7 @@ font-family: 'Roboto', sans-serif;
     right: 0;
 }
 
-body { /* Pagina kan zo niet scrollen */
+body {
     margin: 0;
     padding: 0;
 }
@@ -245,14 +245,10 @@ body { /* Pagina kan zo niet scrollen */
     text-align: center;
     font-family: 'Roboto', sans-serif;
 	color: #FFFFFF;
-	/* Safari */
-  	-webkit-transform: rotate(90deg);
-  	/* Firefox */
-  	-moz-transform: rotate(90deg);
-  	/* IE */
-  	-ms-transform: rotate(90deg);
-  	/* Opera */
-  	-o-transform: rotate(90deg);
+	float: left;
+    -webkit-transform: rotate(90deg) translate(100%,100%);
+            transform: rotate(90deg) translate(100%,100%);
+    -webkit-transform-origin: 100% 100%;
 }
 
 #nieuwevraagpos2 {
