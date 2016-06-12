@@ -234,15 +234,20 @@ font-family: 'Roboto', sans-serif;
 }
 
 #nieuwevraagpos1 {
+	/* Safari */
+  	-webkit-transform: rotate(90deg);
+  	/* Firefox */
+  	-moz-transform: rotate(90deg);
+  	/* IE */
+  	-ms-transform: rotate(90deg);
+  	/* Opera */
+  	-o-transform: rotate(90deg);
 	position: absolute;
-	left: 50;
-	bottom: 0px;
-	top: 0px;
+	float: left;
 	text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 	color: #FFFFFF;
-	transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
 #nieuwevraagpos2 {
