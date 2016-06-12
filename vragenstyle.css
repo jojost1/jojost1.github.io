@@ -243,9 +243,10 @@ font-family: 'Roboto', sans-serif;
   	/* Opera */
   	-o-transform: rotate(90deg);
 	position: absolute;
-	top: 0px;
-	left: 1px;
+	
+	left: 10;
 	bottom: 0px;
+	top: 0px;
 	text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -273,7 +274,7 @@ font-family: 'Roboto', sans-serif;
 
 #nieuwevraagpos3 {
 	position: absolute;
-	bottom: 1px;
+	bottom: 10;
 	left: 0px;
 	right: 0px;
     text-align: center;
