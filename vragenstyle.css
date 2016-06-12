@@ -298,7 +298,8 @@ body {
 }
 
 #sideBottom {
-    left: 50%;
+    left: 0;
+    right: 0;
     position: fixed;
     text-align: center;
     white-space:nowrap;
