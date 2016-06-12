@@ -182,18 +182,31 @@ margin-top: -05%;
 font-size: 50;
 font-family: 'Roboto', sans-serif;
 }
+#upper-left {
+    height: 80px;
+    position: fixed;
+    top: 10;
+    left: 0;
+}
+
+#upper-right {
+	height: 80px;
+    position: fixed;
+    top: 10;
+    right: 0;
+}
 
 #bottom-left {
-    height: 50px;
+    height: 80px;
     position: fixed;
-    bottom: 5;
+    bottom: 10;
     left: 0;
 }
 
 #bottom-right {
-	height: 50px;
+	height: 80px;
     position: fixed;
-    bottom: 5;
+    bottom: 10;
     right: 0;
 }
 
