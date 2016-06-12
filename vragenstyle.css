@@ -234,8 +234,7 @@ font-family: 'Roboto', sans-serif;
 
 #nieuwevraagpos1 {
 	position: fixed;
-	
-    text-align: center;
+	top: 50%;
     font-family: 'Roboto', sans-serif;
 	color: #FFFFFF;
 	/* Safari */
