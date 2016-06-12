@@ -281,9 +281,8 @@ body {
 }
 
 #sideTop {
-	top: 50%;
     left: 50%;
-    position: absolute;
+    position: fixed;
     text-align: center;
     white-space:nowrap;
     top: 40;
@@ -299,9 +298,8 @@ body {
 }
 
 #sideBottom {
-	top: 50%;
     left: 50%;
-    position: absolute;
+    position: fixed;
     text-align: center;
     white-space:nowrap;
     bottom: 40;
