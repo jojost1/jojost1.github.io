@@ -243,7 +243,7 @@ font-family: 'Roboto', sans-serif;
   	-o-transform: rotate(90deg);
 	position: absolute;
 	top: 0px;
-	left: 10;
+	left: 1px;
 	bottom: 0px;
 	text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -272,7 +272,7 @@ font-family: 'Roboto', sans-serif;
 
 #nieuwevraagpos3 {
 	position: absolute;
-	bottom: 10;
+	bottom: 1px;
 	left: 0px;
 	right: 0px;
     text-align: center;
