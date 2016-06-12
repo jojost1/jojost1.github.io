@@ -234,7 +234,8 @@ font-family: 'Roboto', sans-serif;
 
 #nieuwevraagpos1 {
 	position: fixed;
-	top: 50%;
+	margin-top: auto;
+  	margin-bottom: auto;
 	text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -252,7 +253,8 @@ font-family: 'Roboto', sans-serif;
 
 #nieuwevraagpos2 {
 	position: fixed;
-	top: 50%;
+	margin-top: auto;
+  	margin-bottom: auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -269,8 +271,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 #nieuwevraagpos3 {
-	display: flex;
-  	justify-content: center;
+	position: fixed;
+	top:10;
+	margin-right: auto;
+  	margin-left: auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
