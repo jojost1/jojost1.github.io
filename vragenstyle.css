@@ -183,4 +183,18 @@ font-size: 50;
 font-family: 'Roboto', sans-serif;
 }
 
+#bottom-left {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-right {
+	height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
