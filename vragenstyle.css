@@ -235,7 +235,6 @@ font-family: 'Roboto', sans-serif;
 
 #nieuwevraagpos1 {
 	position: fixed;
-	left:0;
 	top: 50%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -248,11 +247,11 @@ font-family: 'Roboto', sans-serif;
   	-ms-transform: rotate(90deg);
   	/* Opera */
   	-o-transform: rotate(90deg);
+  	left:0;
 }
 
 #nieuwevraagpos2 {
 	position: fixed;
-	right:0;
 	top: 50%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -265,6 +264,7 @@ font-family: 'Roboto', sans-serif;
   	-ms-transform: rotate(-90deg);
   	/* Opera */
   	-o-transform: rotate(-90deg);
+  	right:0;
 }
 
 /* EIND NIEUWE CODE VAN VRAGENSCHERM JOOST */
