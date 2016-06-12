@@ -129,7 +129,7 @@ body { /* Pagina kan zo niet scrollen */
     position: fixed; 
     overflow-y: scroll;
     width: 100%;
-    length: 100%;
+    height: 100%;
 }
 
 #position1 {
