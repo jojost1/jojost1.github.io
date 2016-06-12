@@ -126,6 +126,8 @@ input:valid::-webkit-input-placeholder {
 
 /* NIEUWE CODE VAN VRAGENSCHERM JOOST */
 
+body, html {height:100%;}
+
 #position1 {
   /* Safari */
   -webkit-transform: rotate(-45deg);
