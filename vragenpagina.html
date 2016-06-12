@@ -9,11 +9,13 @@
 		<p id=position2></p>
 		<p id=position3></p>
 		<p id=position4></p>
-		<img id=bottom-left src="http://image000.flaticon.com/icons/svg/151/151409.svg"></img>
+		<img id=bottom-left src="http://image000.flaticon.com/icons/svg/151/151409.svg" href="https://www.uu.nl/"></img>
 		<script type="text/javascript">
     		// JAVASCRIPT VRAGENSCHERM JOOST
 			setTimeout(vraag1, 20); //Voert 'beginFunctie()' aan 20ms na laden pagina
 
+			var leeg = "";
+			
 			function vraag1() {
   				var vraag1 = "Moet jij wel eens poepen op zondag?"; //Get vraag
   				document.getElementById("position1").innerHTML = vraag1; //Pas positie2 html aan naar vraag
@@ -24,7 +26,7 @@
 			function vraag2() {
 				achtergrondWit() //Achtergrond weer wit
   				var vraag2 = "Moet jij wel eens poepen op maandag?"; //Get vraag
-  				document.getElementById("position1").innerHTML = ""; //Maak positie1 html leeg
+  				document.getElementById("position1").innerHTML = leeg; //Maak positie1 html leeg
   				document.getElementById("position2").innerHTML = vraag2; //Pas positie2 html aan naar vraag
   				setTimeout(achtergrondBlauwFade, 10000); //Timer voor ...s dan veranderd achtergrond
 			}
@@ -37,7 +39,6 @@
   				document.body.style.background = "#FFFFFF";
 			}
 			
-	
 		</script>
 	</body>
 </html>
