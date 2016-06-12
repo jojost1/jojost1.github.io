@@ -13,9 +13,10 @@
 		<img id=upper-right src="http://image000.flaticon.com/icons/svg/151/151409.svg" href="https://www.uu.nl/"></img>
 		<img id=bottom-left src="http://image000.flaticon.com/icons/svg/151/151409.svg" href="https://www.uu.nl/"></img>
 		<img id=bottom-right src="http://image000.flaticon.com/icons/svg/151/151409.svg" href="https://www.uu.nl/"></img>
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script type="text/javascript">
     		// JAVASCRIPT VRAGENSCHERM JOOST
+    		
 			setTimeout(vraag1, 20); //Voert 'beginFunctie()' aan 20ms na laden pagina
 
 			var leeg = "";
@@ -36,7 +37,8 @@
 			}
 
 			function achtergrondBlauwFade() {
-  				document.body.style.background = "#8CD0CD".fadeIn(3000);
+				$('#backgroundfade').fadeIn(1000);
+  				//document.body.style.background = "#8CD0CD";
 			}
 			
 			function achtergrondWit() {
