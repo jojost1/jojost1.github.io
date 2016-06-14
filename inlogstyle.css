@@ -25,6 +25,7 @@ h1 {
   line-height: 150%;
   border-radius: 3px 3px 0 0;
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
 }
 
 #inlog {
@@ -40,7 +41,7 @@ h1 {
 #inlog h1 {
   box-sizing: border-box;
   padding: 20px;
-  font-family: industry, sans-serif ;
+  font-family: 'Roboto', sans-serif;
 }
 
 input {
