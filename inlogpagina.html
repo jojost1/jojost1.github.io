@@ -10,14 +10,16 @@
 	<body>
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<form id=inlog action="/personeeloverzichtpagina.html">
-			<h1>Personeels portal</h1> 
+			<h1>Personeel-portal</h1> 
 			<input placeholder="Gebruikersnaam" type="text" required=""> 
 			<input placeholder="Wachtwoord" type="password" required="">
 			<button>Log in</button>
 			<hr id=horizontaallijn>
-			<form id=gastenknop action="/beginpagina.html" formnovalidate>
-    			<button>Terug naar gastenonderdeel</button>
-			</form>
+			<div id=gastenknop> 
+				<form action="/beginpagina.html">
+    				<button formnovalidate>Terug naar gastenonderdeel</button>
+				</form>
+			</div>
 		</form>
 
 	</body>
