@@ -5,10 +5,11 @@ html{
 }
 
 body{
+	height:100%;
 	background-image: url(/restaurant1.jpg)
 }
 
-#grotetafel, #kleinetafel button {
+#grotetafel button {
 	box-sizing: border-box;
 	width: 80%;
 	height: 40%
@@ -23,8 +24,24 @@ body{
 	background: #3fb0ac;
 	font-size: 50px;
 	text-decoration: none;
-    webkit-transition-duration: 0.5s;
-    transition-duration: 0.5;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+#kleinetafel button {
+	box-sizing: border-box;
+	width: 80%;
+	height: 40%
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	padding-bottom: 40px;
+	border-radius: 3px;
+	border-color:#3fb0ac;
+	background: #3fb0ac;
+	font-size: 50px;
+	text-decoration: none;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 }
@@ -43,8 +60,6 @@ body{
 	background: #3fb0ac;
 	font-size: 50px;
 	text-decoration: none;
-    webkit-transition-duration: 0.5s;
-    transition-duration: 0.5;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 }
