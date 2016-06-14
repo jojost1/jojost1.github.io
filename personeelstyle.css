@@ -38,6 +38,10 @@ max-height: 100%;
 	font-size: 20px;
 }
 
+.title img {
+	height: 20px;
+}
+
 form {
   box-sizing: border-box;
   width: 260px;
