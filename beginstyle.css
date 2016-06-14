@@ -18,16 +18,13 @@ body{
 	margin-left: 10%;
 	margin-right: 10%;
 	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-	padding-bottom: 40px;
 	border-radius: 3px;
 	border-color:#3fb0ac;
 	background: #3fb0ac;
-	font-size: 40px;
+	font-size: 50px;
 	text-decoration: none;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	display: table-cell;
-    vertical-align: middle;
 }
 
 #kleinetafel {
@@ -39,11 +36,10 @@ body{
 	margin-left: 10%;
 	margin-right: 10%;
 	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-	padding-bottom: 40px;
 	border-radius: 3px;
 	border-color:#3fb0ac;
 	background: #3fb0ac;
-	font-size: 40px;
+	font-size: 50px;
 	text-decoration: none;
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -52,17 +48,16 @@ body{
 #personeel {
 	box-sizing: border-box;
 	width: 80%;
-	height: 12%;
-	margin-top: 8%;
+	height: 10%;
+	margin-top: 10%;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
 	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-	padding-bottom: 40px;
 	border-radius: 3px;
 	border-color:#3fb0ac;
 	background: #3fb0ac;
-	font-size: 40px;
+	font-size: 30px;
 	text-decoration: none;
 	color: white;
 	font-family: 'Roboto', sans-serif;
