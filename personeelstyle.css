@@ -38,9 +38,10 @@ li a {
 }
 
 .uitlog {
-	background-color: red;
+	background-color: #ea3838;
 }
 
 li img {
 	height: 10px;
+	padding:1;
 }
