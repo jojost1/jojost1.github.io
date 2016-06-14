@@ -10,7 +10,7 @@ body{
 }
 
 #grotetafel {
-	padding: 0;
+	padding-bottom: 0px;
 	margin: 0;
 	box-sizing: border-box;
 	width: 80%;
