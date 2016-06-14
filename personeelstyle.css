@@ -42,3 +42,13 @@ li a {
 .uitlog {
 	background-color: #ea3838;
 }
+
+#tabel {
+  box-sizing: border-box;
+  width: 260px;
+  background-color: white;
+  margin: 100px auto 0;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 40px;
+  border-radius: 3px;
+}
