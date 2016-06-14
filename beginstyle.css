@@ -9,7 +9,7 @@ body{
 	background-image: url(/restaurant1.jpg)
 }
 
-#grotetafel button {
+#grotetafel {
 	box-sizing: border-box;
 	width: 80%;
 	height: 40%
@@ -28,10 +28,11 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-#kleinetafel button {
+#kleinetafel {
 	box-sizing: border-box;
 	width: 80%;
 	height: 40%
+	margin-top: 10%;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -46,10 +47,11 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-#personeel button {
+#personeel {
 	box-sizing: border-box;
 	width: 80%;
-	height: 10%;
+	height: 40%
+	margin-top: 10%;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
