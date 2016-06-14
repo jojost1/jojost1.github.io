@@ -25,10 +25,9 @@ h1 {
   line-height: 150%;
   border-radius: 3px 3px 0 0;
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
-  font-family: 'Roboto', sans-serif;
 }
 
-#inlog {
+form {
   box-sizing: border-box;
   width: 260px;
   background-color: white;
@@ -37,12 +36,10 @@ h1 {
   padding-bottom: 40px;
   border-radius: 3px;
 }
-
-#inlog h1 {
+form h1 {
   box-sizing: border-box;
   padding: 20px;
   font-family: 'Roboto', sans-serif;
-  font-style: bold;
 }
 
 input {
@@ -106,8 +103,6 @@ input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
 }
 
 #gastenknop{
-  text-align: center;
-  width: 260px;
   padding-top: 10%;
 }
 
