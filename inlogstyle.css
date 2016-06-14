@@ -27,7 +27,7 @@ h1 {
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-form {
+#inlog {
   box-sizing: border-box;
   width: 260px;
   background-color: white;
@@ -36,7 +36,8 @@ form {
   padding-bottom: 40px;
   border-radius: 3px;
 }
-form h1 {
+
+#inlog h1 {
   box-sizing: border-box;
   padding: 20px;
   font-family: industry, sans-serif ;
@@ -103,7 +104,7 @@ input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
 }
 
 #gastenknop{
-  box-sizing: border-box;
+  text-align: center;
   width: 260px;
   background-color: white;
   margin: 100px auto 0;
