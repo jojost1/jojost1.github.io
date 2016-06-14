@@ -10,7 +10,8 @@ body{
 
 .tafelknoppen button {
 	box-sizing: border-box;
-	width: 40%;
+	width: 80%;
+	height: 40%
 	margin-top: 10%;
 	text-align: center;
 	margin-left: 10%;
@@ -30,7 +31,8 @@ body{
 
 .personeelknop button {
 	box-sizing: border-box;
-	width: 10%;
+	width: 80%;
+	height: 10%;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
