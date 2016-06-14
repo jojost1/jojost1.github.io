@@ -104,7 +104,7 @@ input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
 }
 
 #gastenknop{
-  padding-top: 10%;
+  margin-top: 10%;
 }
 
 #horizontaallijn{
