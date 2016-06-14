@@ -8,7 +8,7 @@ body{
 	background-image: url(/restaurant1.jpg)
 }
 
-.tafelknoppen button {
+.grotetafel, .kleinetafel button {
 	box-sizing: border-box;
 	width: 80%;
 	height: 40%
@@ -29,7 +29,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-.personeelknop button {
+.personeel button {
 	box-sizing: border-box;
 	width: 80%;
 	height: 10%;
