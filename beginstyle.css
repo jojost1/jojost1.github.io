@@ -12,7 +12,7 @@ body{
 #grotetafel {
 	box-sizing: border-box;
 	width: 80%;
-	height: 40%
+	height: 40%;
 	margin-top: 10%;
 	text-align: center;
 	margin-left: 10%;
@@ -31,7 +31,7 @@ body{
 #kleinetafel {
 	box-sizing: border-box;
 	width: 80%;
-	height: 40%
+	height: 40%;
 	margin-top: 10%;
 	text-align: center;
 	margin-left: 10%;
@@ -50,7 +50,7 @@ body{
 #personeel {
 	box-sizing: border-box;
 	width: 80%;
-	height: 40%
+	height: 10%;
 	margin-top: 10%;
 	text-align: center;
 	margin-left: 10%;
