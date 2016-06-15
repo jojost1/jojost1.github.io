@@ -80,4 +80,5 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 #head li {
 	color: #FFFFFF;
+	display:inline;
 }	
