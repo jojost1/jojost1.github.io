@@ -85,6 +85,6 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 #horizontaallijn{
   text-align: center;
-  width: 85%;
+  width: 100%;
   background-color: #1ABC9C;
 }
