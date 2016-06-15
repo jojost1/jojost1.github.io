@@ -76,3 +76,6 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
     content: " \25B4\25BE" 
 } /*Dit zodat de pijltjes van sorteren altijd zichtbaar zijn*/
 
+#header {
+	text-align: center;
+}
