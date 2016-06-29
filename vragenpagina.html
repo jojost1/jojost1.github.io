@@ -29,7 +29,7 @@
 			// declare an array for all the timeOuts
 			var timeOuts = new Array();
 			
-			window.onclick = myFunction;
+			window.onclick = volgendeVraagClick;
 			function volgendeVraagClick() {
 				window[volgendeVraag]();
 			}
@@ -60,6 +60,16 @@
 				var vraag3 = "Als je alle tijd van de wereld had, wat zou je dan doen?";
 				document.getElementById("position2").innerHTML = leeg; //Maak positie1 html leeg
   				document.getElementById("position3").innerHTML = vraag3; //Pas positie2 html aan naar vraag
+  				setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
+  			}
+  			
+  			function vraag4() {
+				var volgendeVraag = "vraag5";
+				clearTimeout(timeOuts["toVraag4"]); //Clear timeout toVraag2 als die nog liep
+				achtergrondWit(); //Achtergrond weer wit
+				var vraag4 = "Wat zou je zeker nog eens over willen doen?";
+				document.getElementById("position3").innerHTML = leeg; //Maak positie1 html leeg
+  				document.getElementById("position4").innerHTML = vraag4; //Pas positie2 html aan naar vraag
   				setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
   			}
 
