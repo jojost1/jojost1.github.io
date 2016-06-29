@@ -31,11 +31,11 @@
 			
 			// wordt aangeroepen bij click ergens op pagina
 			window.onclick = function(ev){
-				if( ev.target.nodeName !== 'a' || 'img' || 'href' ){ //Check of datgene waar user op tikt niet het menu-icoon is
+				if( ev.target.nodeName !== 'IMG'){ //Check of datgene waar user op tikt niet het menu-icoon is
         			console.log(ev.target.nodeName); //DEBUG
-        			window[volgendeVraag]();
+        			window[volgendeVraag](); //De functie die wordt aangeroepen (vraag1 of vraag3 bijv) hangt af van element in 'volgendeVraag'
         			console.log("Getikt ergens op pagina"); //DEBUG
-    			} else {console.log("Getikt op menu");}
+    			} else {console.log("Getikt op menu-icoon");} //DEBUG
 			}
 			
 			function vraag1() {
