@@ -24,18 +24,18 @@
 			setTimeout(vraag1, 20); //Voert 'beginFunctie()' aan 20ms na laden pagina
 
 			var leeg = "";
-			var volgendeVraag = "";
+			var volgendeVraag = '';
 			
 			// declare an array for all the timeOuts
 			var timeOuts = new Array();
 			
-			window.onclick = volgendeVraagClick;
+			window.onclick = window[volgendeVraag]();
 			function volgendeVraagClick() {
 				window[volgendeVraag]();
 			}
 			
 			function vraag1() {
-				var volgendeVraag = "vraag2";
+				var volgendeVraag = 'vraag2';
   				var vraag1 = "Wat lust je nu wél, maar vroeger niet?"; //Get vraag
   				document.getElementById("position1").innerHTML = vraag1; //Pas positie2 html aan naar vraag
   				setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
