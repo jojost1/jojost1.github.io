@@ -30,8 +30,7 @@
 			var timeOuts = new Array();
 			
 			// wordt aangeroepen bij click ergens op pagina
-			window.onclick = volgendeVraagClick;
-			function volgendeVraagClick(ev) {
+			window.onclick = function(ev){
 				if( ev.target.nodeName !== 'a' ){ //Check of datgene waar user op tikt niet het menu-icoon is
         			window[volgendeVraag]();
     			}
