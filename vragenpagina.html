@@ -38,39 +38,44 @@
 				volgendeVraag = "vraag2";
   				var vraag1 = "Wat lust je nu wél, maar vroeger niet?"; //Get vraag
   				document.getElementById("position1").innerHTML = vraag1; //Pas positie2 html aan naar vraag
-  				setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
+  				timeOuts["backgroundColorbijVraag1"] = setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
   				timeOuts["toVraag2"] = setTimeout(vraag2, 15000); //Als er niet gedrukt wordt, 10s na begin nieuwe kleur volgende vraag
 			}
 			
 			function vraag2() {
 				volgendeVraag = "vraag3";
 				clearTimeout(timeOuts["toVraag2"]); //Clear timeout toVraag2 als die nog liep
+				clearTimeout(timeOuts["backgroundColorbijVraag1"]); //Clear timeout backgroundColorbijVraag1 als die nog liep
 				achtergrondWit(); //Achtergrond weer wit
   				var vraag2 = "Wie denk je dat het best kan koken aan deze tafel en waarom?"; //Get vraag
   				document.getElementById("position1").innerHTML = leeg; //Maak positie1 html leeg
   				document.getElementById("position2").innerHTML = vraag2; //Pas positie2 html aan naar vraag
-  				setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
+  				timeOuts["backgroundColorbijVraag2"] = setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
   				timeOuts["toVraag3"] = setTimeout(vraag3, 15000); //Als er niet gedrukt wordt, 10s na begin nieuwe kleur volgende vraag
 			}
 			
 			function vraag3() {
 				volgendeVraag = "vraag4";
 				clearTimeout(timeOuts["toVraag3"]); //Clear timeout toVraag2 als die nog liep
+				clearTimeout(timeOuts["backgroundColorbijVraag2"]); //Clear timeout backgroundColorbijVraag1 als die nog liep
 				achtergrondWit(); //Achtergrond weer wit
 				var vraag3 = "Als je alle tijd van de wereld had, wat zou je dan doen?";
 				document.getElementById("position2").innerHTML = leeg; //Maak positie1 html leeg
   				document.getElementById("position3").innerHTML = vraag3; //Pas positie2 html aan naar vraag
-  				setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
+  				timeOuts["backgroundColorbijVraag3"] = setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
+  				timeOuts["toVraag4"] = setTimeout(vraag4, 15000); //Als er niet gedrukt wordt, 10s na begin nieuwe kleur volgende vraag
   			}
   			
   			function vraag4() {
 				volgendeVraag = "vraag5";
 				clearTimeout(timeOuts["toVraag4"]); //Clear timeout toVraag2 als die nog liep
+				clearTimeout(timeOuts["backgroundColorbijVraag3"]); //Clear timeout backgroundColorbijVraag1 als die nog liep
 				achtergrondWit(); //Achtergrond weer wit
 				var vraag4 = "Wat zou je zeker nog eens over willen doen?";
 				document.getElementById("position3").innerHTML = leeg; //Maak positie1 html leeg
   				document.getElementById("position4").innerHTML = vraag4; //Pas positie2 html aan naar vraag
-  				setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
+  				timeOuts["backgroundColorbijVraag4"] = setTimeout(achtergrondBlauwFade, 5000); //Timer voor 5s dan veranderd achtergrond
+  				timeOuts["toVraag5"] = setTimeout(vraag5, 15000); //Als er niet gedrukt wordt, 10s na begin nieuwe kleur volgende vraag
   			}
 
 			function achtergrondBlauwFade() {
