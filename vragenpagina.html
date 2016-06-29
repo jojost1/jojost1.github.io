@@ -31,9 +31,11 @@
 			
 			// wordt aangeroepen bij click ergens op pagina
 			window.onclick = function(ev){
-				if( ev.target.nodeName !== 'a' ){ //Check of datgene waar user op tikt niet het menu-icoon is
+				if( ev.target.nodeName !== 'a' | 'img' | 'href' ){ //Check of datgene waar user op tikt niet het menu-icoon is
         			window[volgendeVraag]();
+        			print("Getikt ergens op pagina");
     			}
+    			print("Getikt op menu");
 			}
 			
 			function vraag1() {
