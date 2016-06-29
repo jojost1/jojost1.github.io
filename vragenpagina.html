@@ -31,7 +31,7 @@
 			
 			window.onclick = myFunction;
 			function volgendeVraagClick() {
-				window[volgendeVraag]()
+				window[volgendeVraag]();
 			}
 			
 			function vraag1() {
@@ -45,7 +45,7 @@
 			function vraag2() {
 				var volgendeVraag = "vraag3";
 				clearTimeout(timeOuts["toVraag2"]); //Clear timeout toVraag2 als die nog liep
-				achtergrondWit() //Achtergrond weer wit
+				achtergrondWit(); //Achtergrond weer wit
   				var vraag2 = "Wie denk je dat het best kan koken aan deze tafel en waarom?"; //Get vraag
   				document.getElementById("position1").innerHTML = leeg; //Maak positie1 html leeg
   				document.getElementById("position2").innerHTML = vraag2; //Pas positie2 html aan naar vraag
@@ -56,7 +56,7 @@
 			function vraag3() {
 				var volgendeVraag = "vraag4";
 				clearTimeout(timeOuts["toVraag3"]); //Clear timeout toVraag2 als die nog liep
-				achtergrondWit() //Achtergrond weer wit
+				achtergrondWit(); //Achtergrond weer wit
 				var vraag3 = "Als je alle tijd van de wereld had, wat zou je dan doen?";
 				document.getElementById("position2").innerHTML = leeg; //Maak positie1 html leeg
   				document.getElementById("position3").innerHTML = vraag3; //Pas positie2 html aan naar vraag
