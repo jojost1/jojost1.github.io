@@ -2,12 +2,14 @@
   {
     "title":"Link Plays Rock Band!",
     "date" : "08/02/18",
+    "color" : "blue",
     "short_description":"On Thursday 08/02, Link is gonna rock playing Rock Band in Den Bosch (Joost's place).",
     "long_description":"On Thursday 08/02, Link is gonna rock playing Rock Band in Den Bosch (Joost's place). You are all encouraged to come!"
   },
   {
     "title":"Link Game Room Confirmed",
     "date" : "12/01/18",
+    "color" : "red",
     "short_description":"It's happening guys. Link is finally getting a real game room!",
     "long_description":"It's happening guys. Link is finally getting a real game room! The room will be at Tilburg University and we'll use it for events, training, and just gaming in general! Details are still sparse, but more info will follow soon :)"
   }
