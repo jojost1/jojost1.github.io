@@ -1,37 +1,37 @@
 [
   {
     "title":"Link Plays Rock Band",
-    "date" : "08/02/18",
-    "type" : "-",
-    "location": "Joost's place, Den Bosch",
-    "fblink" : "https://www.facebook.com/events/1316649418440349/",
+    "date":"08/02/18",
+    "type":"-",
+    "location":"Joost's place, Den Bosch",
+    "fblink":"https://www.facebook.com/events/1316649418440349/",
     "short_description":"Lets rock and annoy Joost's neighbors!",
     "long_description":"On Thursday 08/02, Link is gonna rock playing Rock Band in Den Bosch (Joost's place). You are all encouraged to come!"
   },
   {
     "title":"Second General Assembly 17/18",
-    "date" : "06/02/18",
-    "type" : "official",
-    "location:": "Tilburg University",
-    "fblink" : "https://www.facebook.com/events/180404492693285/",
+    "date":"06/02/18",
+    "type":"official",
+    "location:":"Tilburg University",
+    "fblink":"https://www.facebook.com/events/180404492693285/",
     "short_description":"Lets look back at the first semester and discuss plans for the second one.",
     "long_description":"During this assembly, the board of Tilburg Student E-Sports Assocation Link will look back at the first semester and discuss plans for the second one. During the assembly, we hope to receive input from all members, especially criticism. This is an integral part of our development, as it drives us to continuously improve."
   },
   {
     "title":"Sushi",
-    "date" : "21/01/18",
-    "type" : "-",
-    "location" : "Sushi Koi, Tilburg",
-    "fblink" : "-",
+    "date":"21/01/18",
+    "type":"-",
+    "location":"Sushi Koi, Tilburg",
+    "fblink":"-",
     "short_description":"Birthday Roos, Muriel, Perry",
     "long_description":""
   },
   {
     "title":"The Disaster Artist",
-    "date" : "15/01/18",
-    "type" : "movie",
-    "location" : "Pathé, Tilburg",
-    "fblink" : "-",
+    "date":"15/01/18",
+    "type":"movie",
+    "location":"Pathé, Tilburg",
+    "fblink":"-",
     "short_description":"YOU'RE TEARING ME APART LISA",
     "long_description":"This is the movie we all waited for. Lets watch it together! Don't forget to bring your spoons!"
   }
