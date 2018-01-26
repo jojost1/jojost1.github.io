@@ -1,0 +1,42 @@
+{
+   "data":[
+      {
+         "id":1,
+         "name":"Maze Runner",
+         "date":"2018-02-01 20:59:09",
+         "type":{
+            "name":"Movie",
+            "emoji":"\ud83c\udfac",
+            "gradient_start":"#ba5757",
+            "gradient_end":"#851b1b"
+         },
+         "location":{
+            "id":1,
+            "name":"Pathe Tilburg",
+            "city":"Tilburg",
+            "address":"Pieter Vreedeplein 157, Tilburg, Noord-Brabant, Nederland",
+            "lat":51.5577,
+            "lng":5.08872
+         }
+      },
+      {
+         "id":2,
+         "name":"Casual drinken",
+         "date":"2018-01-31 21:15:01",
+         "type":{
+            "name":"Coma zuipen",
+            "emoji":"\ud83d\ude32",
+            "gradient_start":"#11cc72",
+            "gradient_end":"#25a61a"
+         },
+         "location":{
+            "id":2,
+            "name":"Joost's place",
+            "city":"'s-Hertogenbosch",
+            "address":"Christiaan Huygensweg 87, 's-Hertogenbosch, Noord-Brabant, Nederland",
+            "lat":51.6914,
+            "lng":5.2929
+         }
+      }
+   ]
+}
