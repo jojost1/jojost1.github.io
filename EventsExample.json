@@ -132,6 +132,44 @@
             "lat":51.5577,
             "lng":5.08872
          }
+      },
+      {
+         "id":8,
+         "name":"All The Money in The World",
+         "date":"2018-01-29 20:59:09",
+         "type":{
+            "name":"Movie",
+            "emoji":"\ud83c\udfac",
+            "gradient_start":"#f7971e",
+            "gradient_end":"#ffd200"
+         },
+         "location":{
+            "id":1,
+            "name":"Pathe Tilburg",
+            "city":"Tilburg",
+            "address":"Pieter Vreedeplein 157, Tilburg, Noord-Brabant, Nederland",
+            "lat":51.5577,
+            "lng":5.08872
+         }
+      },
+      {
+         "id":9,
+         "name":"The Commuter",
+         "date":"2018-02-01 20:59:09",
+         "type":{
+            "name":"Movie",
+            "emoji":"\ud83c\udfac",
+            "gradient_start":"#f7971e",
+            "gradient_end":"#ffd200"
+         },
+         "location":{
+            "id":1,
+            "name":"Pathe Tilburg",
+            "city":"Tilburg",
+            "address":"Pieter Vreedeplein 157, Tilburg, Noord-Brabant, Nederland",
+            "lat":51.5577,
+            "lng":5.08872
+         }
       }
    ]
 }
