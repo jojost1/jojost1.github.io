@@ -7,8 +7,8 @@
          "type":{
             "name":"Movie",
             "emoji":"\ud83c\udfac",
-            "gradient_start":"#ba5757",
-            "gradient_end":"#851b1b"
+            "gradient_start":"#f7971e",
+            "gradient_end":"#ffd200"
          },
          "location":{
             "id":1,
@@ -26,16 +26,54 @@
          "type":{
             "name":"Coma zuipen",
             "emoji":"\ud83d\ude32",
-            "gradient_start":"#11cc72",
-            "gradient_end":"#25a61a"
+            "gradient_start":"#cb2d3e",
+            "gradient_end":"#ef473a"
          },
          "location":{
             "id":2,
-            "name":"Joost's place",
+            "name":"Joost's Place",
             "city":"'s-Hertogenbosch",
             "address":"Christiaan Huygensweg 87, 's-Hertogenbosch, Noord-Brabant, Nederland",
             "lat":51.6914,
             "lng":5.2929
+         }
+      },
+      {
+         "id":3,
+         "name":"The Disaster Artist",
+         "date":"2018-01-15 20:59:09",
+         "type":{
+            "name":"Movie",
+            "emoji":"\ud83c\udfac",
+            "gradient_start":"#f7971e",
+            "gradient_end":"#ffd200"
+         },
+         "location":{
+            "id":1,
+            "name":"Pathe Tilburg",
+            "city":"Tilburg",
+            "address":"Pieter Vreedeplein 157, Tilburg, Noord-Brabant, Nederland",
+            "lat":51.5577,
+            "lng":5.08872
+         }
+      },
+      {
+         "id":4,
+         "name":"Sushi",
+         "date":"2018-01-22 20:59:10",
+         "type":{
+            "name":"Movie",
+            "emoji":"\ud83c\udfac",
+            "gradient_start":"#cb2d3e",
+            "gradient_end":"#ef473a"
+         },
+         "location":{
+            "id":3,
+            "name":"Sushi Koi",
+            "city":"Tilburg",
+            "address":"Pieter Vreedeplein 120, Tilburg, Noord-Brabant, Nederland",
+            "lat":51.5577,
+            "lng":5.08872
          }
       }
    ]
