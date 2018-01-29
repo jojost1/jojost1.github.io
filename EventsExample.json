@@ -156,6 +156,26 @@
             "lat":51.5577,
             "lng":5.08872
          }
-      }
+      },
+      {
+         "id":9,
+         "name":"Link Efteling Trip",
+         "date":"2018-04-11 12:15:01",
+         "description":"Lets go to the Efteling! Please confirm attendance on Facebook and have a wonderful time :D",
+         "type":{
+            "name":"Efteling",
+            "emoji":"🦄",
+            "gradient_start":"#cb2d3e",
+            "gradient_end":"#ef473a"
+         },
+         "location":{
+            "id":3,
+            "name":"Efteling",
+            "city":"Kaatsheuvel",
+            "address":"Somewhere",
+            "lat":51.6914,
+            "lng":5.2929
+         }
+      },
    ]
 }
