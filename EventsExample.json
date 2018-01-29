@@ -2,27 +2,9 @@
    "data":[
       {
          "id":1,
-         "name":"Maze Runner",
-         "date":"2018-02-01 20:59:09",
-         "type":{
-            "name":"Movie",
-            "emoji":"\ud83c\udfac",
-            "gradient_start":"#f7971e",
-            "gradient_end":"#ffd200"
-         },
-         "location":{
-            "id":1,
-            "name":"Pathe Tilburg",
-            "city":"Tilburg",
-            "address":"Pieter Vreedeplein 157, Tilburg, Noord-Brabant, Nederland",
-            "lat":51.5577,
-            "lng":5.08872
-         }
-      },
-      {
-         "id":2,
-         "name":"Casual drinken",
-         "date":"2018-01-31 21:15:01",
+         "name":"Casual Drinks!",
+         "date":"2018-03-31 21:15:01",
+         "description":"Lets have a few casual drinks at Joost place. Bring your own drinks and snacks and lets just have a fun time! Also, we'll be playing LAH c:",
          "type":{
             "name":"Coma zuipen",
             "emoji":"🍺",
@@ -39,9 +21,10 @@
          }
       },
       {
-         "id":3,
+         "id":2,
          "name":"The Disaster Artist",
          "date":"2018-01-15 20:59:09",
+         "description":"YOU'RE TEARING ME APART LISA",
          "type":{
             "name":"Movie",
             "emoji":"\ud83c\udfac",
@@ -58,14 +41,15 @@
          }
       },
       {
-         "id":4,
+         "id":3,
          "name":"Sushi",
-         "date":"2018-01-22 20:59:10",
+         "date":"2018-02-22 20:59:10",
+         "description":"Lets eat some fish to celebrate the brithday of Roos, Muriel & Perry :D Please confirm on Facebook!",
          "type":{
-            "name":"Movie",
+            "name":"Sushi",
             "emoji":"🍣",
-            "gradient_start":"#cb2d3e",
-            "gradient_end":"#ef473a"
+            "gradient_start":"#fc67fa",
+            "gradient_end":"#f4c4f3"
          },
          "location":{
             "id":3,
@@ -77,7 +61,7 @@
          }
       },
       {
-         "id":5,
+         "id":4,
          "name":"Molly's Game",
          "date":"2018-01-09 20:59:09",
          "type":{
@@ -96,7 +80,7 @@
          }
       },
       {
-         "id":6,
+         "id":5,
          "name":"Star Wars: The Last Jedi",
          "date":"2018-01-04 20:59:09",
          "type":{
@@ -115,7 +99,7 @@
          }
       },
       {
-         "id":7,
+         "id":6,
          "name":"Link Ice Skating & Winter BBQ",
          "date":"2018-01-03 20:59:09",
          "type":{
@@ -134,9 +118,10 @@
          }
       },
       {
-         "id":8,
+         "id":7,
          "name":"All The Money in The World",
-         "date":"2018-01-29 20:59:09",
+         "description":"All The Money in Sugardaddy DUO's World <3",
+         "date":"2018-01-29 22:30:00",
          "type":{
             "name":"Movie",
             "emoji":"\ud83c\udfac",
@@ -153,7 +138,7 @@
          }
       },
       {
-         "id":9,
+         "id":8,
          "name":"The Commuter",
          "date":"2018-02-01 20:59:09",
          "type":{
