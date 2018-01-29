@@ -141,6 +141,7 @@
          "id":8,
          "name":"The Commuter",
          "date":"2018-02-01 20:59:09",
+         "description":"Some movie about someone doing something in a certain place and time. Rated 10/10: 'A better story than blade runner!'",
          "type":{
             "name":"Movie",
             "emoji":"\ud83c\udfac",
