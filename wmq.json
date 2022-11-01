@@ -43,7 +43,7 @@
             "locationId": "EBFEE98D-F533-4A62-8A74-BAD4BE1BFDFF",
             "locationDescription": "Exiting VH1a Corridor Indicator",
             "updated": "2022-10-20T11:30:00.000Z",
-            "isQueuePresent": true,
+            "isQueuePresent": false,
             "open": true,
             "openingHours": {
                 "from": "2022-10-19T22:00:00.000Z",
@@ -133,7 +133,7 @@
             "locationId": "EBFEE98D-F533-4A62-8A74-BAD4BE1BFDFF",
             "locationDescription": "Entering VH1a Corridor Indicator",
             "updated": "2022-10-20T11:30:00.000Z",
-            "isQueuePresent": true,
+            "isQueuePresent": false,
             "open": true,
             "openingHours": {
                 "from": "2022-10-19T22:00:00.000Z",
@@ -291,7 +291,7 @@
             "resultId": "vf1_extended_queue_info_emergency_exit_indicator",
             "locationId": "EBFEE98D-F533-4A62-8A74-BAD4BE1BFDFF",
             "locationDescription": "Emergency exit Indicator",
-            "isQueuePresent": false,
+            "isQueuePresent": true,
             "updated": "2022-10-20T11:30:00.000Z",
             "open": true,
             "openingHours": {
