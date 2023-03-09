@@ -19,7 +19,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:00:00",
-                "timeInSeconds": 0
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -68,7 +68,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:00:00",
-                "timeInSeconds": 0
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -94,7 +94,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:04:09",
-                "timeInSeconds": 249
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -120,7 +120,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:04:14",
-                "timeInSeconds": 254
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -192,7 +192,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:00:00",
-                "timeInSeconds": 0
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -207,7 +207,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:04:03",
-                "timeInSeconds": 243
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -222,7 +222,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:04:05",
-                "timeInSeconds": 245
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -237,7 +237,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:04:03",
-                "timeInSeconds": 243
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -252,7 +252,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:00:00",
-                "timeInSeconds": 0
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -267,7 +267,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:07:07",
-                "timeInSeconds": 427
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
@@ -306,7 +306,7 @@
             "updated": "2022-10-20T11:30:00.000Z",
             "details": {
                 "time": "00:04:03",
-                "timeInSeconds": 243
+                "timeInSeconds": 1800
             },
             "open": true,
             "openingHours": {
